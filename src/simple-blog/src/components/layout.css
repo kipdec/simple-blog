@@ -1,0 +1,107 @@
+header {
+  background: black;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px){
+  .content-container, .header-container, .footer-children {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.site-container {
+  min-height: 100vh;
+  height: 100%;
+  max-width: 100vw;
+  width: 100%;
+}
+
+.content-container {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #8c8c8c;
+}
+
+.footer-children {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.footer hr {
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+hr {
+  border-color: #8c8c8c;
+  border-top: 1.2px dashed black;
+}
+
+.site-content {
+  width: 100%;
+  margin-top: 1.5em;
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, Verdana;
+  background: #8c8c8c;
+}
+
+a {
+  font-family: monospace;
+  text-transform: lowercase;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.social {
+  float: right;
+}
+
+.social, .copyright {
+  font-family: monospace;
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+h1,h2,h3 {
+  margin-bottom: 0px;
+}
+
+p, ul{
+  margin-top: 10px;
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0px;
+  text-transform: lowercase;
+}
+
+#site-title {
+  text-transform: uppercase;
+}

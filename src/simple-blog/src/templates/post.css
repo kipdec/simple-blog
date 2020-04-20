@@ -1,0 +1,14 @@
+.date {
+    font-family: monospace;
+    margin-bottom: 5px;
+    margin-left: 7px;
+    text-transform: uppercase;
+}
+.blog-post {
+    margin-top: 20px;
+}
+
+.post-header {
+    margin-bottom: 0px;
+}
+
